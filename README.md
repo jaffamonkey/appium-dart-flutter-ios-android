@@ -19,6 +19,8 @@ If it returns Restricted, then run
 ```
 Set-ExecutionPolicy AllSigned
 ```
+OR
+```
 Set-ExecutionPolicy Bypass -Scope Process.
 ```
 
