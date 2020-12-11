@@ -5,8 +5,8 @@ class TestHelper {
 
   static var androidDesiredCapabilitiesApp = {
     'platformName': 'Android',
-    'app': File('test/functional/app/api.apk.zip').absolute.path,
-    'deviceName': 'Android',
+    'app': File('app/api.apk.zip').absolute.path,
+    'deviceName': 'Pixel_XL_API_28',
     'automationName': 'UiAutomator2',
     'appPackage': 'io.appium.android.apis',
     'appActivity': 'io.appium.android.apis.ApiDemos',
@@ -21,7 +21,7 @@ class TestHelper {
   static var iOSDesiredCapabilitiesApp = {
     'platformName': 'iOS',
     'platformVersion': '12.4',
-    'app': File('test/functional/app/UICatalog.app.zip').absolute.path,
+    'app': File('app/UICatalog.app.zip').absolute.path,
     'deviceName': 'iPhone Xs Max', // Runs tests in parallel per file by default
     'automationName': 'xcuitest',
     'wdaLocalPort': 8100,
