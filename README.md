@@ -1,6 +1,6 @@
 An example of running appium_dart
 
-## Install Chocolately
+## Setup
 Install Android SDK
 Install Flutter SDK (automatically installs DART SDK)
 
