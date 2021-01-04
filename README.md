@@ -12,3 +12,4 @@ Install Flutter SDK (automatically installs DART SDK)
 $ flutter pub get
 $ dart run appium_dart_android_test.dart
 ```
+This process will unpack apk zipfile in the `app` folder, and install apk on device, then run tests
