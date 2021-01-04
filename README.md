@@ -9,6 +9,6 @@ Install Flutter SDK (automatically installs DART SDK)
 * Start appium server
 * From command line in repo root:
 ```
-$ flutter pub 
+$ flutter pub get
 $ dart run appium_dart_android_test.dart
 ```
