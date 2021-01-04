@@ -6,7 +6,7 @@ class TestHelper {
   static var androidDesiredCapabilitiesApp = {
     'platformName': 'Android',
     'app': File('app/api.apk.zip').absolute.path,
-    'deviceName': 'Pixel_XL_API_28',
+    'deviceName': 'emulator-5554',
     'automationName': 'UiAutomator2',
     'appPackage': 'io.appium.android.apis',
     'appActivity': 'io.appium.android.apis.ApiDemos',
