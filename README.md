@@ -1,9 +1,10 @@
 An example of running appium_dart
 
+# Quickstart
 ## Setup
-Install Android SDK
-Install Flutter SDK (automatically installs DART SDK)
-Edit `helper.dart` and change `'deviceName': 'emulator-5554'` if necessary
+* Install Android SDK
+* Install Flutter SDK (automatically installs DART SDK)
+* Edit `helper.dart` and change `'deviceName': 'emulator-5554'` if necessary
 
 ## To run
 * Start emulator or attach mobile (ensure device name is in helper.dart, e.g. emulator-5554)
