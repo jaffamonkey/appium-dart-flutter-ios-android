@@ -4,7 +4,7 @@ An example of running appium_dart
 ## Setup
 * Install Android SDK
 * Install Flutter SDK (automatically installs DART SDK)
-* Edit `helper.dart` and change the `deviceName` value for iOS/Android capabilitiea section, if necessary (currently set to defaults)
+* Edit `helper.dart` and change the `deviceName` value for iOS/Android capabilities section, if necessary (currently set to defaults)
 
 ## To run
 * Start emulator or attach mobile (ensure device name is in helper.dart, e.g. emulator-5554)
